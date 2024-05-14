@@ -3,8 +3,12 @@ body {
     text-align: center;
     margin: 0;
     padding: 20px;
+<<<<<<< HEAD
     background: linear-gradient(rgb(140, 200, 238), rgba(33, 5, 242, 0.874));
 
+=======
+    background: linear-gradient(blue , darkblue)
+>>>>>>> 1f45089f7605915a16c715481c4433f1e1589e83
   }
   
   .container {
