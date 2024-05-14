@@ -3,6 +3,8 @@ body {
     text-align: center;
     margin: 0;
     padding: 20px;
+    background: linear-gradient(rgb(140, 200, 238), rgba(33, 5, 242, 0.874));
+
   }
   
   .container {
