@@ -3,25 +3,39 @@ body {
     text-align: center;
     margin: 0;
     padding: 20px;
-<<<<<<< HEAD
-    background: linear-gradient(rgb(140, 200, 238), rgba(33, 5, 242, 0.874));
+    background: linear-gradient(rgb(37, 39, 42), rgba(3, 95, 164, 0.874));
+ }
 
-=======
-    background: linear-gradient(blue , darkblue)
->>>>>>> 1f45089f7605915a16c715481c4433f1e1589e83
-  }
+ .level-selection{
+  margin: 20px;
+  text-transform: uppercase;
+  /* font-size: large; */
+  font-weight: 700;
+  color: rgb(231, 215, 224);
+ }
   
+ h1 {
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.449);
+  background: linear-gradient(white,rgb(90, 73, 73));
+  overflow: hidden;
+  border-radius: 10px;
+  padding: 15px;
+ }
   .container {
+    height: 115vh;
     max-width: 800px;
     margin: 0 auto;
   }
   
   .market,
   .portfolio {
-    margin-bottom: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    padding: 25px;
+    border: 1px solid #f9f9f9be;
     border-radius: 5px;
+    background: linear-gradient(rgba(78, 181, 237, 0.653),rgba(214, 27, 27, 0.905));
+    color: white;
   }
   
   .currencies,
@@ -38,13 +52,25 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 150px;
+    background: rgba(158, 142, 142, 0.255);
+  }
+
+  .currency:hover{
+    box-shadow: 0 0 10px white;
+    transition: 1.2s;
+  }
+
+  .holding:hover{
+    box-shadow: 0 0 10px white;
+    transition: 1.2s;
   }
   
   button {
+    border:3px solid black;
     margin: 10px;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #4CAF50;
+    background-color: #194377;
     color: white;
     border: none;
     border-radius: 4px;
@@ -57,10 +83,11 @@ body {
   }
   
   button:hover:not(:disabled) {
-    background-color: #45a049;
+    background-color: #062c31;
   }
   
   .message {
     margin-top: 20px;
     font-weight: bold;
+    color: white;
   }
