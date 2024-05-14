@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Trader</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Crypto Trader</h1>
+    <div class="level-selection">
+      <label for="level">Choose Difficulty Level:</label>
+      <select id="level">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+    </div>
+    <div class="market">
+      <h2>Market</h2>
+      <div class="currencies"></div>
+    </div>
+    <div class="portfolio">
+      <h2>Your Portfolio</h2>
+      <div class="holdings"></div>
+      <p>Balance: $<span class="balance">10000</span></p>
+    </div>
+    <div class="controls">
+      <button id="buy-btn" disabled>Buy</button>
+      <button id="sell-btn" disabled>Sell</button>
+    </div>
+    <div class="message"></div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
